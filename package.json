@@ -1,5 +1,5 @@
 {
-  "name": "translator_agent_js",
+  "name": "agent_translator_ts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon --watch src --exec ts-node src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nevermined",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.9.1",
