@@ -74,7 +74,6 @@ async function run(data: any) {
         step_status: AgentExecutionStatus.Completed,
         is_last: true,
         output: translatedText,
-        cost: 5, // Adjust the cost as needed
       });
 
       // Log the completion of the translation task
