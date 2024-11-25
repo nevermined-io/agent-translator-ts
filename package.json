@@ -2,14 +2,14 @@
   "name": "agent_translator_ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "nodemon --watch src --exec ts-node src/index.ts"
+    "start": "node dist/main.js",
+    "dev": "nodemon --watch src --exec ts-node src/main.ts"
   },
   "keywords": [],
-  "author": "Nevermined",
+  "author": "Nevermined, AG",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.9.1",
@@ -19,6 +19,8 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "@langchain/core": "^0.3.18",
+    "@langchain/openai": "^0.3.14",
     "@nevermined-io/payments": "^0.7.2",
     "openai": "^4.73.0",
     "pino": "^9.5.0",
